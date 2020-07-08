@@ -1,0 +1,33 @@
+{
+  "name": "registerSystemAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evelynbernardo/registerSystemAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evelynbernardo/registerSystemAPI/issues"
+  },
+  "homepage": "https://github.com/evelynbernardo/registerSystemAPI#readme",
+  "devDependencies": {
+    "typescript": "^2.0.6"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.3.2",
+    "@nestjs/core": "^7.3.2",
+    "express": "^4.17.1",
+    "ioredis": "^4.17.3",
+    "lodash": "^4.17.17",
+    "nestjs-pino": "^1.2.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.0"
+  }
+}
